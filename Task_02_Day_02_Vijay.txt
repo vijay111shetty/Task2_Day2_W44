@@ -1,0 +1,26 @@
+1.Write a blog on difference between document & window objects,
+
+In front-end web we have both Document and window, both are related to web page and have different role and responsibilities,
+
+Window: is the tab that is currently loaded in our browser. It includes a search bar, navigation controls, bookmarks. 
+
+It is common for all web pages, below are the some of the examples of window operators,
+window.alert(“hello world”);
+window.close();
+window.refresh();
+window.nagvigation.forward();
+
+Document: It represents the web page itself, it comes inside the window, 
+
+It contains HTML, CSS, JS, etc
+Document objects allows to modify the web pages in local system,
+Below are the some of document operators,
+Document.getelemetsbyclass();
+Document.getelementsbyID();
+Document.getelementsbyname();
+
+In conclusion, both the document and window objects are important in front-end web development. While they are related to the same web page, they have different roles and functionalities. Understanding the differences between the two objects is essential for writing effective and efficient JavaScript code.
+
+
+
+
